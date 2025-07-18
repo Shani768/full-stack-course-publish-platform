@@ -73,3 +73,31 @@ A scalable, full-featured **Learning Management System (LMS)** built with:
 ```bash
 git clone https://github.com/your-username/full-stack-course-publish-platform.git
 cd full-stack-course-publish-platform
+
+```
+### backend
+
+```bash 
+   cd  backend             # Navigate to backend folder
+npm install           # Install backend dependencies
+
+# 👉 Run in development mode
+npm run dev
+
+# 🏁 For production
+npm run build         # Build the backend
+npm run start         # Run backend in production
+```
+
+### frontend 
+```bash
+cd frontend         # Navigate to frontend folder
+npm install           # Install frontend dependencies
+
+# 👉 Run in development mode
+npm run dev
+
+# 🏁 For production
+npm run build         # Build the frontend
+npm run preview       # Preview production frontend
+```
