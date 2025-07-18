@@ -81,6 +81,10 @@ cd full-stack-course-publish-platform
    cd  backend             # Navigate to backend folder
 npm install           # Install backend dependencies
 
+# 🔄 Set up your database
+npx prisma db push     # Push Prisma schema to your MySQL database
+npx prisma generate    # Generate Prisma Client
+
 # 👉 Run in development mode
 npm run dev
 
