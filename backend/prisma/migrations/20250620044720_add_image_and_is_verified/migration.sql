@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE `User` ADD COLUMN `image` VARCHAR(191) NULL,
+    ADD COLUMN `isVerified` BOOLEAN NOT NULL DEFAULT false,
+    MODIFY `password` VARCHAR(191) NULL;
