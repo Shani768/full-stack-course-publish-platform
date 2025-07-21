@@ -20,8 +20,6 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Auth />} />
-            <Route path="/tokencheck" element={ <ProtectedRoute> <TokenCheck /> </ProtectedRoute>} />
-            
             <Route path="/transaction" element={<TransactionTable />} />
             <Route path="/course/:id" element={<ProtectedRoute><CourseForm /></ProtectedRoute>} />
             <Route path="/course/:id/chapter/:chapterId" element={<ProtectedRoute><ChapterPage /></ProtectedRoute>} />
