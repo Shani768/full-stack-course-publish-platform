@@ -3,6 +3,7 @@
 A scalable, full-featured **Learning Management System** built with:
 
 - ⚛️ **React + Vite (TypeScript)** frontend
+- 🎨 **Tailwind CSS** for responsive and modern UI  
 - 🚀 **Express.js (TypeScript)** backend
 - 🐬 **MySQL** database
 - ☁️ **Cloudinary** for video hosting
