@@ -1,6 +1,6 @@
 # 🎓 Full Stack Course Platform
 
-A scalable, full-featured **Learning Management System (LMS)** built with:
+A scalable, full-featured **Learning Management System** built with:
 
 - ⚛️ **React + Vite (TypeScript)** frontend
 - 🚀 **Express.js (TypeScript)** backend
@@ -14,10 +14,8 @@ A scalable, full-featured **Learning Management System (LMS)** built with:
 
 ---
 
-## 🌐 Live Demo (Optional)
-
-> [Coming Soon...] Add link when deployed (e.g., Vercel + Render/Railway)
-
+## watch Video
+[Watch Demo Video](https://shani-project-videos.s3.eu-north-1.amazonaws.com/course/video.mp4)
 ---
 
 ## 🧰 Tech Stack
@@ -105,3 +103,12 @@ npm run dev
 npm run build         # Build the frontend
 npm run preview       # Preview production frontend
 ```
+
+## 📸 Screenshots
+
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://shani-project-videos.s3.eu-north-1.amazonaws.com/course/course_image_1.png" width="400" height="700" />
+  <img src="https://shani-project-videos.s3.eu-north-1.amazonaws.com/course/course_image_2.png" width="400" height="700" />
+  <img src="https://shani-project-videos.s3.eu-north-1.amazonaws.com/course/course_image_3.png" width="400" height="700" />
+</div>
