@@ -30,7 +30,7 @@ A scalable, full-featured **Learning Management System** built with:
 | JWT / Google   | Auth                    |
 | Nodemailer     | Email service           |
 |  Rate-Limiter | API Protection   |
-
+|  zustand       |  state managment |      |
 ---
 
 ## 🚀 Features
@@ -61,6 +61,19 @@ A scalable, full-featured **Learning Management System** built with:
 ### 🛡️ **Security**
 - 🚫 Implemented rate limiting (middleware)
 - 🌍 CORS and environment-based config
+
+### 🧠 **State Management**
+- 🗂️ Global state handled with [Zustand](https://github.com/pmndrs/zustand)
+- 🔐 Auth state, course data, UI state, etc. managed via simple stores
+
+### 🎨 **UI Components**
+- 💅 Built with [shadcn/ui](https://ui.shadcn.com/)
+- ⚡ Fast, accessible, and highly customizable components
+- 🎯 Designed using Tailwind CSS
+
+### 📏 **Schema Validation**
+- ✅ Input & backend request validation with [Zod](https://github.com/colinhacks/zod)
+- 🔐 Ensures type-safe and secure form handling
 
 ---
 
