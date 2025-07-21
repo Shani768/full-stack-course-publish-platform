@@ -1,26 +1,10 @@
-// import { FcGoogle } from 'react-icons/fc';
-
-// const GoogleButton = () => {
-//   return (
-//     <button
-//       onClick={() => alert('Google Auth')}
-//       className="w-full mt-4 flex items-center justify-center gap-2 border border-gray-300 rounded-lg py-2 hover:bg-gray-50 transition mb-6"
-//     >
-//       <FcGoogle className="text-xl" />
-//       <span>Continue with Google</span>
-//     </button>
-//   );
-// };
-
-// export default GoogleButton;
-// GoogleLoginButton.tsx
-
 import { GoogleLogin } from '@react-oauth/google';
 import type { CredentialResponse } from '@react-oauth/google';
-
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const GoogleLoginButton = () => {
+   const navigate = useNavigate(); 
   const handleSuccess = async (credentialResponse: CredentialResponse) => {
     const { credential } = credentialResponse;
 
@@ -36,6 +20,8 @@ const GoogleLoginButton = () => {
 
       localStorage.setItem('token', res.data.token);
       console.log('User:', res.data.user);
+
+       navigate('/dashboard');
     } catch (error) {
       console.error('Login error:', error);
     }
